@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="bgwidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1200</width>
+     <height>800</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#bgwidget{
+background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(76, 76, 76, 255), stop:1 rgba(135, 135, 135, 255))
+}</string>
+   </property>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>40</y>
+      <width>621</width>
+      <height>711</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget#widget{
+background-color:rgb(171, 98, 255);
+border-radius:10px;
+text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF
+}</string>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>20</y>
+       <width>241</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 36pt &quot;Vazir&quot;;
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>فرم ثبت نام</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="name_input">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>110</y>
+       <width>361</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius:10px;
+font: 500 18pt &quot;Poppins Medium&quot;;
+background-color:white;
+font: 20pt &quot;Vazir&quot;;</string>
+     </property>
+     <property name="placeholderText">
+      <string> نام(لاتین)</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="family_input">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>180</y>
+       <width>361</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius:10px;
+font: 500 18pt &quot;Poppins Medium&quot;;
+background-color:white;
+font: 20pt &quot;Vazir&quot;;</string>
+     </property>
+     <property name="placeholderText">
+      <string> نام خانوادگی(لاتین)</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="national_input">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>250</y>
+       <width>361</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius:10px;
+font: 500 18pt &quot;Poppins Medium&quot;;
+background-color:white;
+font: 20pt &quot;Vazir&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="placeholderText">
+      <string> کد ملی</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="iaom_input">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>320</y>
+       <width>361</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius:10px;
+font: 500 18pt &quot;Poppins Medium&quot;;
+background-color:white;
+font: 20pt &quot;Vazir&quot;;</string>
+     </property>
+     <property name="placeholderText">
+      <string> مقدار پول اولیه</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="confirm_create">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>420</y>
+       <width>231</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius:10px;
+background-color:rgb(0, 188, 6);
+font: 700 26pt &quot;Vazir&quot;;
+color:white</string>
+     </property>
+     <property name="text">
+      <string>تایید</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="push1122">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>500</y>
+       <width>231</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius:10px;
+background-color:rgb(170, 0, 0);
+font: 700 26pt &quot;Vazir&quot;;
+color:white</string>
+     </property>
+     <property name="text">
+      <string>بازگشت</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="blank_label_2">
+     <property name="geometry">
+      <rect>
+       <x>-20</x>
+       <y>370</y>
+       <width>491</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 700 17pt &quot;Vazir&quot;;
+color: rgb(255, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

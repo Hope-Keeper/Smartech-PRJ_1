@@ -1,0 +1,9 @@
+/* Webfont: PowerGroteskTrial-MedIta */@font-face {
+    font-family: 'PowerGroteskTrialMedIta';
+    src: url('PowerGroteskTrial-MedIta.woff2') format('woff2'), /* Modern Browsers */
+         url('PowerGroteskTrial-MedIta.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

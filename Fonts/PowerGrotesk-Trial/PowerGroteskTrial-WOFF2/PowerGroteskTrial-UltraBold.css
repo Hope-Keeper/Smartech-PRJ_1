@@ -1,0 +1,9 @@
+/* Webfont: PowerGroteskTrial-UltraBold */@font-face {
+    font-family: 'PowerGroteskTrialUltBd';
+    src: url('PowerGroteskTrial-UltraBold.woff2') format('woff2'), /* Modern Browsers */
+         url('PowerGroteskTrial-UltraBold.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

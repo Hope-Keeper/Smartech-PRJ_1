@@ -1,0 +1,9 @@
+/* Webfont: PowerGroteskTrial-Medium */@font-face {
+    font-family: 'PowerGroteskTrialMed';
+    src: url('PowerGroteskTrial-Medium.woff2') format('woff2'), /* Modern Browsers */
+         url('PowerGroteskTrial-Medium.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

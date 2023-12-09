@@ -1,0 +1,9 @@
+/* Webfont: PowerGroteskTrial-HeavyItalic */@font-face {
+    font-family: 'PowerGroteskTrialHeavyIta';
+    src: url('PowerGroteskTrial-HeavyItalic.woff2') format('woff2'), /* Modern Browsers */
+         url('PowerGroteskTrial-HeavyItalic.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
